@@ -13,18 +13,23 @@ Graph classification has recently received a lot of attention from various field
 
 ### Results
 
+<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/results.png" width="1000">
+#### Accuracy (%) of serveral classifiers combined to spectral features embedding
 
-
+As we can see, RFC provides the best results for all datasets except DD where MLP has an accuracy of 75.6 against 75.4. Our intuition to explain these good results is that the decision tree classifier, which is at the core of RFC, is an algorithm based on level thresholding. Our paper uses [1] to say that the spectral features represent a sequence of energy levels. With this intuition, being above or below a certain level is thus likely to be meaningful for classification.
 
 ### Additional results
 
-<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/results.png" width="1000">
-##### Accuracy (%) of serveral classifiers combined to spectral features embedding
+<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/additional_results.png" width="1000">
+#### Accuracy (%) of serveral classifiers combined to spectral features embedding
 
 Several experiments has been done with adidtional classifiers: random forest classifier (RFC), $k$-nearest neighbors classifier ($k$-NNC), 2-layers perceptron with Relu non-linearity (MLP), support vector machine with \textit{one versus one} classification (SVM) and ridge regression classifier (RRC).
 
 
 <img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="1000">
-##### Accuracy (%) of RF combined to the spectral features embedding of different dimensions
+#### Accuracy (%) of RF combined to the spectral features embedding of different dimensions
+
+
+[1] Thomas Bonald, Alexandre Hollocou, and Marc Lelarge. Weighted spectral embedding of graphs. arXiv preprint arXiv:1809.11115, 2018.
 
 A single dataset is archived in the DATASETS file, others can be found here: https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets
