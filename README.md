@@ -8,7 +8,7 @@ Graph classification has recently received a lot of attention from various field
 
 ### Method
 
-<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/method_schema.png" width="700">
+<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/method_schema.png" width="800">
 Figure 1: Schematic view of our model. L denotes the normalized Laplacian of the graph, c the predicted class. 
 
 ### Results
@@ -31,7 +31,7 @@ Several experiments has been done with adidtional classifiers: random forest cla
 
 ### 
 
-<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="1000">
+<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="700">
 Table 3: Accuracy (%) of RF combined to the spectral features embedding of different dimensions.
 
 ### 
