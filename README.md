@@ -24,9 +24,13 @@ As we can see, RFC provides the best results for all datasets except DD where ML
 
 <img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/additional_results.png" width="700">
 Table 2: Accuracy (%) of different classifiers combined to the spectral features embedding.
-   
+
+### 
+
 Several experiments has been done with adidtional classifiers: random forest classifier (RFC), k-nearest neighbors classifier (k-NNC), 2-layers perceptron with Relu non-linearity (MLP), support vector machine with \textit{one versus one} classification (SVM) and ridge regression classifier (RRC).
-   
+
+### 
+
 <img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="1000">
 Table 3: Accuracy (%) of RF combined to the spectral features embedding of different dimensions.
 
