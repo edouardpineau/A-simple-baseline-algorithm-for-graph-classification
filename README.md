@@ -15,19 +15,16 @@ Figure 1: Schematic view of our model. L denotes the normalized Laplacian of the
 
 <img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/results.png" width="700">
 Table 1: Experimental accuracy (%) of different models plus ours over standard molecular datasets.
-
-
+   
 As we can see, RFC provides the best results for all datasets except DD where MLP has an accuracy of 75.6 against 75.4. Our intuition to explain these good results is that the decision tree classifier, which is at the core of RFC, is an algorithm based on level thresholding. Our paper uses [1] to say that the spectral features represent a sequence of energy levels. With this intuition, being above or below a certain level is thus likely to be meaningful for classification.
 
 ### Additional results
 
 <img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/additional_results.png" width="700">
 Table 2: Accuracy (%) of different classifiers combined to the spectral features embedding.
-
-
+   
 Several experiments has been done with adidtional classifiers: random forest classifier (RFC), $k$-nearest neighbors classifier ($k$-NNC), 2-layers perceptron with Relu non-linearity (MLP), support vector machine with \textit{one versus one} classification (SVM) and ridge regression classifier (RRC).
-
-
+   
 <img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="1000">
 Table 3: Accuracy (%) of RF combined to the spectral features embedding of different dimensions.
 
