@@ -34,6 +34,7 @@ Several experiments has been done with adidtional classifiers: random forest cla
 <img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="1000">
 Table 3: Accuracy (%) of RF combined to the spectral features embedding of different dimensions.
 
+### 
 
 [1] Thomas Bonald, Alexandre Hollocou, and Marc Lelarge. Weighted spectral embedding of graphs. arXiv preprint arXiv:1809.11115, 2018.
 
