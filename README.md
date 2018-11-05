@@ -31,7 +31,7 @@ Several experiments has been done with adidtional classifiers: random forest cla
 
 ### 
 
-<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="700">
+<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="600">
 Table 3: Accuracy (%) of RF combined to the spectral features embedding of different dimensions.
 
 ### 
