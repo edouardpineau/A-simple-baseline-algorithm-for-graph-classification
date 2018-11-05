@@ -27,7 +27,7 @@ Table 2: Accuracy (%) of different classifiers combined to the spectral features
 
 ### 
 
-Several experiments has been done with adidtional classifiers: random forest classifier (RFC), k-nearest neighbors classifier (k-NNC), 2-layers perceptron with Relu non-linearity (MLP), support vector machine with \textit{one versus one} classification (SVM) and ridge regression classifier (RRC).
+Several experiments has been done with adidtional classifiers: random forest classifier (RFC), k-nearest neighbors classifier (k-NNC), 2-layers perceptron with Relu non-linearity (MLP), support vector machine with *one versus one* classification (SVM) and ridge regression classifier (RRC).
 
 ### 
 
