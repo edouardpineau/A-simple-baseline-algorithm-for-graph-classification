@@ -2,6 +2,8 @@
 
 This repository proposes an implementation of the work developped and presented in: https://arxiv.org/abs/1810.09155
 
+This work will be presented at the R2L workshop of NIPS 2018.
+
 ### Abstract
 
 Graph classification has recently received a lot of attention from various fields of machine learning e.g. kernel methods, sequential modeling or graph embedding. All these approaches offer promising results with different respective strengths and weaknesses. However, most of them rely on complex mathematics and require heavy computational power to achieve their best performance. We propose a simple and fast algorithm based on the spectral decomposition of graph Laplacian to perform graph classification and get a first reference score for a dataset. We show that this method obtains competitive results compared to state-of-the-art algorithms. 
