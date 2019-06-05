@@ -2,7 +2,7 @@
 
 This repository proposes an implementation of the work developped and presented in: https://arxiv.org/abs/1810.09155
 
-This work was presented at the R2L workshop of NIPS 2018.
+This work was presented at the NIPS 2018 workshop session [Relational Representation Learning](https://r2learning.github.io/).
 
 ### Abstract
 
