@@ -2,7 +2,7 @@
 
 This repository proposes an implementation of the work developped and presented in: https://arxiv.org/abs/1810.09155
 
-This work will be presented at the R2L workshop of NIPS 2018.
+This work was presented at the R2L workshop of NIPS 2018.
 
 ### Abstract
 
@@ -10,13 +10,13 @@ Graph classification has recently received a lot of attention from various field
 
 ### Method
 
-<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/method_schema.png" width="800">
-Figure 1: Schematic view of our model. L denotes the normalized Laplacian of the graph, c the predicted class. 
+<p align="center"><img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/method_schema.png" width="800"></p>
+<p align="center">Figure 1: Schematic view of our model. L denotes the normalized Laplacian of the graph, c the predicted class. </p>
 
 ### Results
 
-<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/results.png" width="700">
-Table 1: Experimental accuracy (%) of different models plus ours over standard molecular datasets.
+<p align="center"><img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/results.png" width="700"></p>
+<p align="center">Table 1: Experimental accuracy (%) of different models plus ours over standard molecular datasets.</p>
 
 ### 
 
@@ -24,8 +24,8 @@ As we can see, RFC provides the best results for all datasets except DD where ML
 
 ### Additional results
 
-<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/additional_results.png" width="700">
-Table 2: Accuracy (%) of different classifiers combined to the spectral features embedding.
+<p align="center"><img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/additional_results.png" width="700"></p>
+<p align="center">Table 2: Accuracy (%) of different classifiers combined to the spectral features embedding.</p>
 
 ### 
 
@@ -33,8 +33,8 @@ Several experiments has been done with adidtional classifiers: random forest cla
 
 ### 
 
-<img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="600">
-Table 3: Accuracy (%) of RF combined to the spectral features embedding of different dimensions.
+<p align="center"><img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="600"></p>
+<p align="center">Table 3: Accuracy (%) of RF combined to the spectral features embedding of different dimensions.</p>
 
 ### 
 
