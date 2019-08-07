@@ -20,7 +20,7 @@ Graph classification has recently received a lot of attention from various field
 
 ### 
 
-As we can see, RFC provides the best results for all datasets except DD where MLP has an accuracy of 75.6 against 75.4. Our intuition to explain these good results is that the decision tree classifier, which is at the core of RFC, is an algorithm based on level thresholding. Our paper uses [1] to say that the spectral features represent a sequence of energy levels. With this intuition, being above or below a certain level is thus likely to be meaningful for classification.
+As we can see, SF + RFC provides the best results for all datasets except DD. Our intuition to explain these good results is that the decision tree classifier, which is at the core of RFC, is an algorithm based on level thresholding. Our paper uses [1] to say that the spectral features represent a sequence of energy levels. With this intuition, being above or below a certain level is thus likely to be meaningful for classification.
 
 ### Additional results
 
