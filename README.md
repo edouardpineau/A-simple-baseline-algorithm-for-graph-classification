@@ -4,7 +4,7 @@ This repository proposes an implementation of the work developped and presented 
 
 This work was presented at the NIPS 2018 workshop session [Relational Representation Learning](https://r2learning.github.io/).
 
-Some theoretical explanation of the good behavior of this simple baseline is presented in a preprint paper [Using Laplacian Spectrum as Graph Feature Representation](https://arxiv.org/abs/1912.00735), whose code is [here](https://github.com/edouardpineau/Using-Laplacian-Spectrum-as-Graph-Feature-Representation).
+Theoretical explanation of the good behavior of this simple baseline is presented in a preprint paper [Using Laplacian Spectrum as Graph Feature Representation](https://arxiv.org/abs/1912.00735), whose code is [here](https://github.com/edouardpineau/Using-Laplacian-Spectrum-as-Graph-Feature-Representation).
 
 ### Abstract
 
