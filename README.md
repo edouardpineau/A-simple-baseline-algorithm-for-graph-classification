@@ -38,6 +38,15 @@ Several experiments has been done with adidtional classifiers: random forest cla
 <p align="center"><img src="https://github.com/edouardpineau/A-simple-baseline-algorithm-for-graph-classification/raw/master/images/k_dependence.png" width="600"></p>
 <p align="center">Table 3: Accuracy (%) of RF combined to the spectral features embedding of different dimensions.</p>
 
+### Citing
+
+    @article{de2018simple,
+              title={A simple baseline algorithm for graph classification},
+              author={de Lara, Nathan and Pineau, Edouard},
+              journal={Relational Representation Learning Workshop, NIPS 2018},
+              year={2018}
+    }
+
 ### 
 
 [1] Thomas Bonald, Alexandre Hollocou, and Marc Lelarge. Weighted spectral embedding of graphs. arXiv preprint arXiv:1809.11115, 2018.
